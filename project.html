@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+  top: 0;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+li.gg{
+    align: right;
+    color: white;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+}
+.active{
+background-color:green;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+#search{
+    padding: 10px 10px 10px 57px;
+    text-decoration: none;
+}
+h2{
+    margin: 200px 120px 0px 100px;
+    font-size: 30px;
+    color: darkmagenta;
+    z-index: -2;
+}
+.links{
+  float: left;
+}
+img.content{
+  position: relative;
+  left: 79px;
+  float: left;
+  margin: 21px;
+  z-index: -2;
+}
+h3{
+  font-size: 70px;
+  color:red;
+  text-align: center;
+  background-image: linear-gradient( rgb(204, 84, 104), rgb(255, 255, 0));
+  height: 155px;
+  padding: 30px 0px 0px 0px;
+  font-family: Stencil,sans-serif;
+}
+div.cata{
+  border: 0.1px solid lightskyblue;
+  float:left;
+  width: 150px;
+  position: relative;
+  left: 100px;
+  margin: 10px;
+  text-decoration: none;
+}
+div.cata:hover{
+  border: 1px solid black;
+}
+div.cata img{
+  width: 100%;
+  height: 130px;
+}
+div.cata des{
+  font-size: 27px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+h4{
+  position: relative; 
+  left:100px; 
+  font-size:40px;
+  color: darkviolet;
+  font-weight: bolder;
+}
+#foot{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0;
+  margin:0;
+}
+</style>
+</head>
+<body>
+<h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+<ul>
+<li><a href="#" class="active">Home</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About us</a></li>
+<li style="float:right"><a href="#" target="_blank">Sign in</a></li>
+<li id="search"><input type="text" placeholder="Search eLabs..." size="60" style="font-size: 20px;">  <button type="submit" style="font-size: 20px;">Go</button></li>
+</ul>
+<h3>HELLO!<br>
+  <a href="#" title="Select your Address here" style="text-decoration: none; color: darkmagenta; font-size: 25px;">Select delivery address</a>
+</h3>
+<h4>Deals of the day:<a target="_blank" href="#" style="text-decoration: none; color:black; font-size: 23px; margin: 0px 0px 0px 795px;" title="See more deals">See more</a></h4>
+<div class="cata">
+  <a target="_blank" href="#" style="text-decoration: none; color:black;" title="Set of Beakers and Flasks">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\bfs.jpg" alt="Beakers and Flasks" width="355" height="210">
+  <div class="des">Set of Beakers and Flasks(5 pc. each in one set)<br></a><strike>RS.670</strike>  RS.620</div>
+</div>
+<div class="cata">
+  <a target="_blank" href="#" title="Lathe Machine" style="text-decoration: none; color:black;">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\lath.jpg" alt="Lathe Machine" width="355" height="210">
+  <div class="des">Lathe Machine<br></a><strike>RS.124678</strike>  RS.120000</div>
+</div>
+<div class="cata">
+  <a target="_blank" href="#" style="text-decoration: none; color:black;" title="Arduino UNO R3">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\ard.jpg" alt="Arduino Board" width="355" height="210">
+  <div class="des">Arduino Board UNO R3<br></a><strike>RS.530</strike>  RS.515</div>
+</div>
+<div class="cata">
+  <a target="_blank" href="#" style="text-decoration: none; color:black;" title="Soldering Iron">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\solder.jpg" alt="Soldering Iron" width="355" height="210">
+  <div class="des">Soldering Iron(1 unit)<br></a><strike>RS.345</strike>  RS.320</div>
+</div>
+<div class="cata">
+  <a target="_blank" href="#" style="text-decoration: none; color:black;" title="Electron Microscope">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\elecm.jpg" alt="Electron Microscope" width="355" height="210">
+  <div class="des">Electron Microscope(1 unit)<br></a><strike>RS.100000</strike>  RS.95499</div>
+</div>
+<div class="cata">
+  <a target="_blank" href="#" style="text-decoration: none; color:black;" title="Multimeter">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\multi.jpg" alt="Multimeter">
+  <div class="des">Multimeter(1 unit)<br></a><strike>RS.250</strike>  RS.230</div>
+</div>
+<div class="cata">
+  <a target="_blank" href="#" style="text-decoration: none; color:black;" title="Jogger 24 Leveller">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\level.jpg" alt="Jogger 24 leveller" width="355" height="210">
+  <div class="des">Jogger 24 leveller(1 unit)<br></a><strike>RS.456</strike>  RS.430</div>
+</div><br>
+<div><br>
+<h2>Shop instruments and supplies for:</h2>
+<a href="#" title="Computer Science and Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\cse.jpg" width="355" height="210" alt="Computer Science and Engineering" class="content">
+</a>
+<a href="#" title="Civil Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\civil.jpg" width="355" height="210" alt="Civil Engineering" class="content">
+</a>
+<a href="#" title="Chemical Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\chemical.jpg" width="355" height="210" alt="Chemical Engineering" class="content">
+</a>
+<br>
+<a href="#" title="Electrical Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\electrical-engineering-image.jpg" width="355" height="210" alt="Electrical Engineering" class="content">
+</a>
+<a href="#" title="Mechanical Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\mechanical.png" width="355" height="210" alt="Mechanical Engineering" class="content">
+</a>
+<a href="#" title="Electronics and Communication Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\ece.jpg" width="355" height="210" alt="Electronics and Communication Engineering" class="content">
+</a>
+<br>
+<a href="#" title="Instrumentation and Control Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\ice.jpg" width="355" height="210" alt="Instrumentation and Control Engineering" class="content">
+</a>
+<a href="#" title="NanoEngineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\nanoe.png" width="355" height="210" alt="NanoEngineering" class="content">
+</a>
+<a href="#" title="Aerospace Engineering">
+  <img src="C:\Users\PARIKH\Desktop\New folder (2)\aero.png" width="355" height="210" alt="Aerospace Engineering" class="content">
+</a>
+</div>
+</body>
+</html>
