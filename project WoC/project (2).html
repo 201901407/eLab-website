@@ -2,9 +2,12 @@
 <html>
   <script>
     function disableLink(){
-      if(disable.value=="Sign in")
+      if(document.getElementById("disable").disabled == false)
       {
-        opener.document.location="#";
+        document.getElementsByClassName("submenu").disabled = true;
+      }
+      else{
+        document.getElementsByClassName("submenu").disabled = false;
       }
     }
     function alertUser(){
@@ -91,10 +94,23 @@ h3{
   font-size: 70px;
   color:red;
   text-align: center;
-  background-image: linear-gradient( rgb(204, 84, 104), rgb(255, 255, 0));
   height: 155px;
   padding: 30px 0px 0px 0px;
   font-family: Stencil,sans-serif;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fade{
+  0%{
+    background-color:orange;
+  }
+  50%{
+    background-color:mediumspringgreen;
+  }
+  100%{
+    background-color: orchid;
+  }
 }
 div.cata{
   border: 0.1px solid lightskyblue;
@@ -239,21 +255,21 @@ table{
   </tr>
   <tr>
     <td><a href="C:\Users\PARIKH\Desktop\project WoC\newacc.html" title="Your Account" style="text-decoration: none; color: white">Create new eLabs account</a></td>
-    <td><a href="javascript: disableLink()" title="Advertise on eLabs" style="text-decoration: none; color: white" onclick="alertUser()">Advertise on eLabs</a></td>
+    <td><a href="javascript: disableLink()" title="Advertise on eLabs" style="text-decoration: none; color: white" onclick="alertUser()" id="submenu">Advertise on eLabs</a></td>
     <td><a href="#" title="Contact us" style="text-decoration: none; color: white">Contact us</a></td>
   </tr>
   <tr>
-    <td><a href="javascript: disableLink()" title="Change Password" style="text-decoration: none; color: white" onclick="alertUser()">Change password</a></td>
+    <td><a href="javascript: disableLink()" title="Change Password" style="text-decoration: none; color: white" onclick="alertUser()" id="submenu">Change password</a></td>
     <td><a href="#" title="Become eLabs merchant" style="text-decoration: none; color: white">Become eLabs merchant</a></td>
-    <td><a href="javascript: disableLink()" title="Return products" style="text-decoration: none; color: white" onclick="alertUser()">Return products</a></td>
+    <td><a href="javascript: disableLink()" title="Return products" style="text-decoration: none; color: white" onclick="alertUser()" id="submenu">Return products</a></td>
   </tr>
   <tr>
-    <td><a href="javascript: disableLink()" title="Your orders" style="text-decoration: none; color: white" onclick="alertUser()">Your Orders</a></td>
+    <td><a href="javascript: disableLink()" title="Your orders" style="text-decoration: none; color: white" onclick="alertUser()" id="submenu">Your Orders</a></td>
     <td><a href="#" title="Seller Policy" style="text-decoration: none; color: white">Seller Policy</a></td>
-    <td><a href="javascript: disableLink()" title="Payments Help" style="text-decoration: none; color: white"onclick="alertUser()">Payments Help</a></td>
+    <td><a href="javascript: disableLink()" title="Payments Help" style="text-decoration: none; color: white"onclick="alertUser()" id="submenu">Payments Help</a></td>
   </tr>
   <tr>
-    <td><a href="javascript: disableLink()" title="Your Returns" style="text-decoration: none; color: white" onclick="alertUser()">Your Returns</a></td>
+    <td><a href="javascript: disableLink()" title="Your Returns" style="text-decoration: none; color: white" onclick="alertUser()" id="submenu">Your Returns</a></td>
   </tr>
 </table>
 </body>
