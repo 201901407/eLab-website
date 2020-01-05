@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+  top: 0;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li.gg{
+    align: right;
+    color: white;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+}
+.active{
+background-color:green;
+}
+#search{
+    padding: 10px 10px 10px 57px;
+    text-decoration: none;
+}
+h2{
+    margin: 73px 120px 0px 100px;
+    font-size: 30px;
+    color: darkmagenta;
+    z-index: -2;
+}
+img.body{
+    z-index:-1;
+    width: 280px;
+    height: 190px;
+    border: 10px 30px 30px 0px;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+table.header{
+    position: relative;
+    left: 100px;
+    border: 10px solid lightskyblue;
+    border-spacing: 29px;
+}
+tr.subheader{
+    font-size: 25px;
+    color: darkgreen;
+}
+table.middle{
+    position: relative;
+    left: 80px;
+    border-spacing: 20px;
+}
+tr.submiddle{
+    font-size: 23px;
+    color: black;
+    position: relative;
+    right: 540px;
+    font-weight: bold;
+}
+h3{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    color: darkmagenta;
+}
+th{
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  border-collapse: collapse;
+  border: 8px solid black;
+  color: white;
+}
+td.foot{
+  text-align: left;
+  font-size: 20px;
+  background-color: black;
+  padding: 3px 5px 3px 5px;
+  border-collapse: collapse;
+  border: 8px solid black;
+}
+table.footer{
+  border: 0.001px solid lightskyblue;
+  width: 100%;
+  background-color: black;
+}
+tr.submiddle:hover{
+  background-color: lightgray;
+}
+</style>
+</head>
+<body>
+<h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+<ul>
+<li><a href="C:\Users\PARIKH\Desktop\project WoC\project (2).html">Home</a></li>
+<li><a href="#">News</a></li>
+<li><a href="C:\Users\PARIKH\Desktop\project WoC\product.html">Products</a></li>
+<li><a href="#">About us</a></li>
+<li style="float:right"><a href="C:\Users\PARIKH\Desktop\project WoC\signin.html" target="_blank">Sign in</a></li>
+<li id="search"><input type="text" placeholder="Search eLabs..." size="60" style="font-size: 20px;">  <button type="submit" style="font-size: 20px;">Go</button></li>
+</ul>
+<h2>Trending Instruments used in Electrical Engineering:</h2>
+<table class="header">
+    <tr class="subheader">
+        <td><a href="#" title="Multimeters" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\mult.jpg" alt="Multimeter" class="body"><br>Multimeters</a></td>
+        <td><a href="#" title="Cable Testers" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\cable.jpg" alt="Cable Tester" class="body"><br>Cable Testers</a></td>
+        <td><a href="#" title="Cathode Ray Oscilloscopes" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\cro.jpg" alt="Cathode Ray Oscilloscope" class="body"><br>Cathode Ray Oscilloscopes</a></td>
+    </tr>
+    <tr class="subheader">
+        <td><a href="#" title="Function Generators" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\func.jpg" alt="Function Generator" class="body"><br>Function Generators</a></td>
+        <td><a href="#" title="Rheostats" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\rheo.jpg" alt="Rheostat" class="body"><br>Rheostats</a></td>
+        <td><a href="#" title="Breadboards" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\bread.jpg" alt="Breadboards" class="body"><br>Breadboards</a></td>
+    </tr>
+</table>
+<h3>Unmissable Deals:</h3>
+<table class="middle">
+    <tr class="submiddle">
+        <td><a href="#" title=" Digital 7-Function Multimeter" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\multimeter.jpg" style="float:left; margin:0px 30px 0px 0px; width: 300px; height:256px">
+          Digital 7-Function Multimeter</a><br>4.8/5 (7951)
+        <br><br><strike>RS.999</strike>   RS.899</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="RS-100 Micro Scanner Cable Tester" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\cabtest.jpg" style="float:left; margin:0px 30px 0px 0px; width: 250px; height:265px;">
+          RS-100 Micro Scanner Cable Tester</a><br>4.5/5 (2913)
+        <br><br><strike>RS.19999</strike>   RS.19499</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="FDS 56093S Cathode Ray Oscilloscope" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\cros.jpg" style="float:left; margin:0px 30px 0px 0px; width: 290px; height:230px;">
+          FDS 56093S Cathode Ray Oscilloscope</a><br>4.1/5 (2477)
+        <br><br><strike>RS.19000</strike>   RS.18499</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="SD34794 25MHz Waveform Generator" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\fun.jpg" style="float:left; margin:0px 30px 0px 0px; width: 370px; height:210px;">
+          SD34794 25MHz Waveform Generator</a><br>3.8/5 (951)
+        <br><br><strike>RS.56799</strike>   RS.56399</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="Single Tube Slider Rheostat(1000 ohm, 6%)" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\rhestat.jpg" style="float:left; margin:0px 30px 0px 0px; width: 280px; height:210px;">
+          Single Tube Slider Rheostat(1000 ohm, 6%)</a><br>4.2/5 (6914)
+        <br><br><strike>RS.1499</strike>   RS.1399</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="Breadboard - Full Size(830 Points)" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\breadb.jpg" style="float:left; margin:0px 30px 0px 0px; width: 300px; height:240px;">
+          Breadboard - Full Size(830 Points)</a><br>4.1/5 (10233)
+        <br><br><strike>RS.499</strike>   RS.449</td>
+    </tr>
+    <tr>
+      <td><p style="font-size: 25px; font-weight: bold;"><a href="#" title="See more deals" style="text-decoration: none; color: black;">See more ></a></p></td>
+    </tr>
+</table>
+<table class="footer">
+    <tr>
+    <th>Manage your account</th>
+    <th>Sell on eLabs</th>
+    <th>Help</th>
+    </tr>
+    <tr>
+      <td class="foot"><a href="C:\Users\PARIKH\Desktop\project WoC\account.html" title="Your Account" style="text-decoration: none; color: white">Your Account</a></td>
+      <td class="foot"><a href="#" title="Advertise on eLabs" style="text-decoration: none; color: white">Advertise on eLabs</a></td>
+      <td class="foot"><a href="#" title="Contact us" style="text-decoration: none; color: white">Contact us</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="C:\Users\PARIKH\Desktop\project WoC\change.html" title="Change Password" style="text-decoration: none; color: white">Change password</a></td>
+      <td class="foot"><a href="#" title="Become eLabs merchant" style="text-decoration: none; color: white">Become eLabs merchant</a></td>
+      <td class="foot"><a href="#" title="Return products" style="text-decoration: none; color: white">Return products</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your orders" style="text-decoration: none; color: white">Your orders</a></td>
+      <td class="foot"><a href="#" title="Seller Policy" style="text-decoration: none; color: white">Seller Policy</a></td>
+      <td class="foot"><a href="#" title="Payments Help" style="text-decoration: none; color: white">Payments Help</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your Returns" style="text-decoration: none; color: white">Your Returns</a></td>
+    </tr>
+  </table>
+</body>
+</html>

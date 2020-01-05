@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+form{
+    position: relative;
+    left: 100px;
+    background-color: lightgrey;
+    margin-right: 220px;
+}
+h2{
+    position: relative;
+    left:100px;
+    text-align: center;
+    color:chartreuse;
+    background-color: darkgreen;
+    margin-right: 220px;
+    font-size: 45px;
+    margin-bottom:0;
+}
+p{
+    font-size:27px;
+    margin-left: 130px;
+    font-weight: bold;
+}
+input{
+    font-size: 21px;
+    background-color: white;
+    margin-left: 130px;
+}
+button{
+    font-size:19px;
+    margin-left: 130px;
+}
+#re{
+    margin-left:14px;
+}
+.para{
+    font-size: 23px;
+    margin-left: 130px;
+    color: red;
+}
+</style>
+</head>
+<body>
+    <h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+    <br>
+    <h2>Change Password</h2>
+    <form>
+        <br><br>
+        <p>New Password</p><br>
+        <input type="password" maxlength="10" minlength="8" size="25" placeholder="Enter here">
+        <br><br>
+        <p>Confirm new Password</p>
+        <input type="password" maxlength="10" minlength="8" size="25" placeholder="Confirm here">
+        <br><br><br>
+        <button type="submit">Change</button> <button type="reset" id="re">Reset</button>
+        <br><br>
+        <p>Note:</p>
+        <p class="para">Your new password should have atleast one numeral.</p>
+        <p class="para">Your new password should have atleast one special character.</p>
+        <p class="para">Your new password must be at least 8 characters long.</p>
+        <p class="para">Your new password must be at most 10 characters long.</p>
+    </form>
+</body>
+</html>

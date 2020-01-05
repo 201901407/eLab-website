@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+  top: 0;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li.gg{
+    align: right;
+    color: white;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+}
+.active{
+background-color:green;
+}
+#search{
+    padding: 10px 10px 10px 57px;
+    text-decoration: none;
+}
+h2{
+    margin: 73px 120px 0px 100px;
+    font-size: 30px;
+    color: darkmagenta;
+    z-index: -2;
+}
+img.body{
+    z-index:-1;
+    width: 280px;
+    height: 199px;
+    border: 10px 30px 30px 0px;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+table.header{
+    position: relative;
+    left: 100px;
+    border: 10px solid lightskyblue;
+    border-spacing: 29px;
+}
+tr.subheader{
+    font-size: 25px;
+    color: darkgreen;
+}
+table.middle{
+    position: relative;
+    left: 80px;
+    border-spacing: 20px;
+}
+tr.submiddle{
+    font-size: 23px;
+    color: black;
+    position: relative;
+    right: 540px;
+    font-weight: bold;
+}
+tr.submiddle:hover{
+  background-color: lightgray;
+}
+h3{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    color: darkmagenta;
+}
+th{
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  border-collapse: collapse;
+  border: 8px solid black;
+  color: white;
+}
+td.foot{
+  text-align: left;
+  font-size: 20px;
+  background-color: black;
+  padding: 3px 5px 3px 5px;
+  border-collapse: collapse;
+  border: 8px solid black;
+}
+table.footer{
+  border: 0.001px solid lightskyblue;
+  width: 100%;
+  background-color: black;
+}
+</style>
+</head>
+<body>
+<h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+<ul>
+<li><a href="C:\Users\PARIKH\Desktop\project WoC\project (2).html">Home</a></li>
+<li><a href="#">News</a></li>
+<li><a href="C:\Users\PARIKH\Desktop\project WoC\product.html">Products</a></li>
+<li><a href="#">About us</a></li>
+<li style="float:right"><a href="C:\Users\PARIKH\Desktop\project WoC\signin.html" target="_blank">Sign in</a></li>
+<li id="search"><input type="text" placeholder="Search eLabs..." size="60" style="font-size: 20px;">  <button type="submit" style="font-size: 20px;">Go</button></li>
+</ul>
+<h2>Trending Instruments used in Aerospace Engineering:</h2>
+<table class="header">
+    <tr class="subheader">
+        <td><a href="#" title="Micro Raman Spectrometers" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\raman.jpg" alt="Micro Raman Spectrometers" class="body"><br>Micro Raman Spectrometers</a></td>
+        <td><a href="#" title="Laser Doppler Vibratometer" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\dopp.jpg" alt="Laser Doppler Vibratometers" class="body"><br>Laser Doppler Vibratometers</a></td>
+        <td><a href="#" title="Control Gyroscopes" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\gyro.jpg" alt="Control Gyroscopes" class="body"><br>Control Gyroscopes</a></td>
+    </tr>
+</table>
+<h3>Unmissable Deals:</h3>
+<table class="middle">
+    <tr class="submiddle">
+        <td><a href="#" class="pro" title="Point 3W45F Micro Raman Spectrometer" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\raman.jpg" style="float:left; margin:0px 30px 0px 0px; width: 270px; height:210px">Point 3W45F Micro Raman Spectrometer
+        </a><br>4.1/5 (231)<br><br><strike>RS.199999</strike>   RS.198999</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" class="pro" title="2Wr5 Laser Doppler Vibratometer" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\laser.jpg" style="float:left; margin:0px 30px 0px 0px; width: 260px; height:220px;">2Wr5 Laser Doppler Vibratometer
+        </a><br>3.1/5 (340)<br><br><strike>RS.29999</strike>   RS.29849</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" class="pro" title="Medium Test Control Gyroscopes" style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\gyro.jpg" style="float:left; margin:0px 30px 0px 0px; width: 270px; height:200px;">Medium Test Control Gyroscopes
+        </a><br>4.5/5 (549)<br><br><strike>RS.42999</strike>   RS.41999</td>
+    </tr>
+    <tr>
+        <td><p style="font-size: 25px; font-weight: bold;"><a href="#" title="See more deals" style="text-decoration: none; color: black;">See more ></a></p></td>
+    </tr>
+</table>
+<table class="footer">
+    <tr>
+    <th>Manage your account</th>
+    <th>Sell on eLabs</th>
+    <th>Help</th>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your Account" style="text-decoration: none; color: white">Your Account</a></td>
+      <td class="foot"><a href="#" title="Advertise on eLabs" style="text-decoration: none; color: white">Advertise on eLabs</a></td>
+      <td class="foot"><a href="#" title="Contact us" style="text-decoration: none; color: white">Contact us</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Change Password" style="text-decoration: none; color: white">Change password</a></td>
+      <td class="foot"><a href="#" title="Become eLabs merchant" style="text-decoration: none; color: white">Become eLabs merchant</a></td>
+      <td class="foot"><a href="#" title="Return products" style="text-decoration: none; color: white">Return products</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your orders" style="text-decoration: none; color: white">Your orders</a></td>
+      <td class="foot"><a href="#" title="Seller Policy" style="text-decoration: none; color: white">Seller Policy</a></td>
+      <td class="foot"><a href="#" title="Payments Help" style="text-decoration: none; color: white">Payments Help</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your Returns" style="text-decoration: none; color: white">Your Returns</a></td>
+    </tr>
+  </table>
+</body>
+</html>

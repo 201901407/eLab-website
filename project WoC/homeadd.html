@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+form{
+    position:relative;
+    left: 100px;
+    background-color: lightgrey;
+    margin-right: 220px;
+}
+h2{
+    margin: 45px 120px 0px 100px;
+    font-size: 45px;
+    color: chartreuse;
+    z-index: -2;
+    text-align: center;
+    font-weight: bold;
+    background-color: green;
+}
+p{
+    font-size: 27px;
+    padding-left: 130px;
+    font-weight: bold;
+}
+textarea{
+    font-size: 22px;
+    margin-left: 130px;
+    overflow-x: hidden;
+}
+input{
+    font-size: 22px;
+    margin-left: 130px;
+}
+button{
+    font-size: 19px;
+    margin-left: 130px;
+}
+#re{
+    margin-left:23px ;
+}
+</style>
+</head>
+<body>
+    <h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+    <h2>Change Home Address</h2>
+<form>
+    <br><br>
+    <p>New Home address(excluding City and Country)</p>
+    <textarea rows="6" cols="33" maxlength="150" required></textarea>
+    <br><br><br>
+    <p>City</p>
+    <input type="text" maxlength="35" size="30" required>
+    <br><br><br>
+    <p>Country</p>
+    <input type="text" maxlength="29" size="30" required><br><br><br><br>
+    <button type="submit">Submit</button><button type="reset" id="re">Reset</button>
+</form>
+</body>
+</html>

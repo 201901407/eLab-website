@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+h2{
+    position: relative;
+    left: 100px;
+    font-size: 35px;
+    color: lightgreen; 
+    text-align: center;
+    background-image: linear-gradient(hotpink,maroon);
+    margin-right: 220px;
+    margin-bottom: 0;
+}
+form{
+    position: relative;
+    left: 100px;
+    background-color: lightgrey;
+    margin-right: 220px;
+}
+p{
+    font-size:30px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.greentext{
+    color:green;
+}
+.redtext{
+    color:red;
+}
+label{
+    font-size: 30px;
+}
+input[type="radio"]{
+    border: 0px;
+    width: 23px;
+    height: 23px;
+    margin-left: 100px;
+}
+textarea{
+    font-size: 23px;
+    margin-left: 100px;
+    overflow-x: hidden;
+}
+button{
+    margin-left: 100px;
+    font-size: 28px;
+    background-color: darkblue;
+    color: white;
+    width: 900px;
+    height: 55px;
+}
+</style>
+</head>
+<body>
+    <h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+    <br>
+<h2>Order Summary</h2>
+<form>
+    <br><br>
+    <p class="greentext">Order Item:</p>
+    <p>Arduino UNO R3 Microcontroller(ATMega328 , Input Voltage: 7-12V, USB compatible)</p>
+    <p>Quantity: 1 unit</p>
+    <br><p class="greentext">Order Total:</p>
+    <p class="redtext">Total Price:   RS.515</p>
+    <P>Base Price: RS.512.45</P>
+    <P>Tax: RS.2.55</P>
+    <p class="redtext">Total: RS.515</p><br>
+    <p class="greentext">Select Delivery address:</p>
+    <label for="add">
+        <input type="radio" name="address" id="add">Home<p>1234, 32th Street, Colaba, Mumbai, India-123456</p>
+        <input type="radio" name="address" id="add">Work<p>4567, 56th Building, Colaba, Mumbai, India-124567</p>
+        <input type="radio" name="address" id="add">Select other Address<p>Enter Address manually.</p>
+    </label>
+    <br><p class="greentext">Select payment method:</p>
+    <label for="add2">
+        <input type="radio" name="payment">Credit card/Debit card<p>> No saved cards yet.</p>
+        <input type="radio" name="payment">Net Banking<br><br>
+        <input type="radio" name="payment">UPI<br><br>
+        <input type="radio" name="payment">Mobile Wallet<br><br>
+        <input type="radio" name="payment">Pay On Delivery(POD)<br><br>
+    </label>
+    <p class="greentext">Any delivery instructions:</p>
+    <textarea rows="5" cols="44"></textarea>
+    <p style="color: chocolate; font-size: 35px;">Estimated Delivery by 6th January, 2020(Mon).</p>
+    <button type="submit" id="but">Place Order!</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position:sticky;
+  top: 0;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+li.gg{
+    align: right;
+    color: white;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+}
+.active{
+background-color:green;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+#search{
+    padding: 10px 10px 10px 57px;
+    text-decoration: none;
+}
+h2{
+    margin: 73px 120px 0px 100px;
+    font-size: 30px;
+    color: darkmagenta;
+    z-index: -2;
+    font-weight: bold;
+}
+img.body{
+    z-index:-1;
+    width: 280px;
+    height: 190px;
+    border: 10px 30px 30px 0px;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+table.header{
+    position: relative;
+    left: 100px;
+    border: 10px solid lightskyblue;
+    border-spacing: 29px;
+}
+tr.subheader{
+    font-size: 25px;
+    color: darkgreen;
+}
+table.middle{
+    position: relative;
+    left: 80px;
+    border-spacing: 20px;
+}
+tr.submiddle{
+    font-size: 23px;
+    color: black;
+    position: relative;
+    right: 540px;
+    font-weight: bold;
+}
+tr.submiddle:hover{
+  background-color: lightgray;
+}
+h3{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+th{
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  border-collapse: collapse;
+  border: 8px solid black;
+  color: white;
+}
+td.foot{
+  text-align: left;
+  font-size: 20px;
+  background-color: black;
+  padding: 3px 5px 3px 5px;
+  border-collapse: collapse;
+  border: 8px solid black;
+}
+table.footer{
+  border: 0.001px solid lightskyblue;
+  width: 100%;
+  background-color: black;
+}
+</style>
+</head>
+<body>
+<h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+<ul>
+<li><a href="C:\Users\PARIKH\Desktop\project WoC\project (2).html">Home</a></li>
+<li><a href="#">News</a></li>
+<li><a href="C:\Users\PARIKH\Desktop\project WoC\product.html">Products</a></li>
+<li><a href="#">About us</a></li>
+<li style="float:right"><a href="C:\Users\PARIKH\Desktop\project WoC\signin.html" target="_blank">Sign in</a></li>
+<li id="search"><input type="text" placeholder="Search eLabs..." size="60" style="font-size: 20px;">  <button type="submit" style="font-size: 20px;">Go</button></li>
+</ul>
+<h2>Trending Instruments used in Computer Science and Engineering:</h2>
+<table class="header">
+    <tr class="subheader">
+        <td><a href="#" title="Monitors" style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\monitor.jpg" alt="Monitor" class="body"><br>Monitors</a></td>
+        <td><a href="#" title="Mouse"  style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\mouse.jpg" alt="Mouse" class="body"><br>Mouse</a></td>
+        <td><a href="#" title="Keyboards"  style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\key.jpg" alt="Keyboards" class="body"><br>Keyboards</a></td>
+    </tr>
+    <tr class="subheader">
+        <td><a href="#" title="Central Processing Units"  style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\CPU.jpeg" alt="Central Processing Units" class="body"><br>Central Processing Units</a></td>
+        <td><a href="#" title="Laptops"  style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\laptop.jpg" alt="Laptops" class="body"><br>Laptops</a></td>
+        <td><a href="#" title="Accessories"  style="text-decoration: none; color: darkslategray;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\pen.jpg" alt="Accessories" class="body"><br>Accessories</a></td>
+    </tr>
+</table>
+<h3>Unmissable Deals:</h3>
+<table class="middle">
+    <tr class="submiddle">
+        <td><a href="#" title="DELL UltraSharp U2414H 23.8'' Full HD 1080p LED Monitor"  style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\mondell.jpg" style="float:left; margin:0px 30px 0px 0px; width: 300px; height:256px">
+          DELL UltraSharp U2414H 23.8" Full HD 1080p LED Monitor</a>
+        <br>4.4/5 (1,223)<br><br><strike>RS.46700</strike>   RS.45699</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="Logitech M100 Wired Mouse - Black"  style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\mouselogi.jpg" style="float:left; margin:0px 30px 0px 0px; width: 250px; height:210px;">
+          Logitech M100 Wired Mouse - Black</a>
+        <br>4.0/5 (204)<br><br><strike>RS.535</strike>   RS.510</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title=" HP - Pavilion 400 Wireless Membrane Keyboard"  style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\keyhp.jpg" style="float:left; margin:0px 30px 0px 0px; width: 330px; height:220px;">
+          HP - Pavilion 400 Wireless Membrane Keyboard</a>
+        <br>3.9/5 (2200)<br><br><strike>RS.1599</strike>   RS.1499</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="Lenovo ThinkCentre M78 Small Form Factor Desktop CPU"  style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\len.jpg" style="float:left; margin:0px 30px 0px 0px; width: 250px; height:210px;">
+          Lenovo ThinkCentre M78 Small Form Factor Desktop CPU</a>
+        <br>4.7/5 (549)<br><br><strike>RS.56999</strike>   RS.56499</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title=" Dell Inspiron 15 3583 Intel Pentium Gold 7th Gen 15.6-inch Laptop"  style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\dellap.jpg" style="float:left; margin:0px 30px 0px 0px; width: 300px; height:210px;">
+          Dell Inspiron 15 3583 Intel Pentium Gold 7th Gen 15.6-inch Laptop</a>
+        <br>3.6/5 (733)<br><br><strike>RS.25999</strike>   RS.25499</td>
+    </tr>
+    <tr class="submiddle">
+        <td><a href="#" title="SanDisk 32GB Ultra Dual m3.0 USB 3.0 and Micro USB Flash Drive"  style="text-decoration: none; color: black;"><img src="C:\Users\PARIKH\Desktop\New folder (2)\san.jpg" style="float:left; margin:0px 30px 0px 0px; width: 280px; height:250px;">
+          SanDisk 32GB Ultra Dual m3.0 USB 3.0 and Micro USB Flash Drive</a>
+        <br>4.4/5 (3009)<br><br><strike>RS.1999</strike>   RS.1899</td>
+    </tr>
+    <tr>
+      <td><p style="font-size: 25px; font-weight: bold;"><a href="#" title="See more deals" style="text-decoration: none; color: black;">See more ></a></p></td>
+    </tr>
+</table>
+<table class="footer">
+    <tr>
+    <th>Manage your account</th>
+    <th>Sell on eLabs</th>
+    <th>Help</th>
+    </tr>
+    <tr>
+      <td class="foot"><a href="C:\Users\PARIKH\Desktop\project WoC\account.html" title="Your Account" style="text-decoration: none; color: white">Your Account</a></td>
+      <td class="foot"><a href="#" title="Advertise on eLabs" style="text-decoration: none; color: white">Advertise on eLabs</a></td>
+      <td class="foot"><a href="#" title="Contact us" style="text-decoration: none; color: white">Contact us</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="C:\Users\PARIKH\Desktop\project WoC\change.html" title="Change Password" style="text-decoration: none; color: white">Change password</a></td>
+      <td class="foot"><a href="#" title="Become eLabs merchant" style="text-decoration: none; color: white">Become eLabs merchant</a></td>
+      <td class="foot"><a href="#" title="Return products" style="text-decoration: none; color: white">Return products</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your orders" style="text-decoration: none; color: white">Your orders</a></td>
+      <td class="foot"><a href="#" title="Seller Policy" style="text-decoration: none; color: white">Seller Policy</a></td>
+      <td class="foot"><a href="#" title="Payments Help" style="text-decoration: none; color: white">Payments Help</a></td>
+    </tr>
+    <tr>
+      <td class="foot"><a href="#" title="Your Returns" style="text-decoration: none; color: white">Your Returns</a></td>
+    </tr>
+  </table>
+  </body>
+</html>

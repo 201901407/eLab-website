@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    function enableSubmit(){
+        if(document.getElementById("check").checked == true && document.getElementById("check2").checked == true)
+        {
+            document.getElementById("but").disabled = false;
+        }
+        else
+        {
+            document.getElementById("but").disabled = true;
+        }
+    }
+    </script>
+<head>
+<style>
+body{
+    background: lightskyblue;
+    overflow-x: hidden;
+}
+img.header{
+position:absolute;
+z-index:-1;
+left:464px;
+}
+h1{
+    background-color: black;
+    text-align:center;
+    color:white;
+    padding:3px 0px 3px 0px;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-size: 70px;
+    z-index:1;
+}
+h2{
+    margin: 45px 120px 0px 100px;
+    text-align:center;
+    font-size:45px;
+    color:chartreuse;
+    background-color:darkolivegreen;
+}
+form{
+    position:relative;
+    left: 100px;
+    background-color: lightgrey;
+    margin-right: 220px;
+}
+input{
+    margin-left: 130px;
+    font-size: 22px;
+    background-color: white;
+}
+p{
+    margin-left: 130px;
+    font-size: 26px;
+    font-weight: bold;
+}
+label{
+    font-size: 21px;
+}
+input[type=checkbox]
+{
+    width: 21px;
+    height: 21px;
+    border:0;
+}
+#but{
+    margin-left:130px;
+    font-size: 19px;
+}
+#re{
+    margin-left: 7px;
+    font-size: 19px;
+}
+</style>
+</head>
+<body>
+    <h1><img src="C:\Users\PARIKH\Desktop\New folder (2)\images.jpg" width=100 height=76 alt="lab instruments" class="header">eLabs</h1>
+<h2>Create new eLabs Account</h2>
+<form>
+    <br><br>
+    <p>Create username of your account</p>
+    <br><br>
+    <input type="text" maxlength="15" minlength="7" size="25" required>
+    <br><br>
+    <p>Create Password of your account</p>
+    <br><br>
+    <input type="password" maxlength="10" minlength="8" size="25" required>
+    <p>Confirm Password of your account</p>
+    <br><br>
+    <input type="password" maxlength="10" minlength="8" size="25" required>
+    <p>Enter your e-mail address</p>
+    <br><br>
+    <input type="text" size="25">
+    <p>Enter your mobile number</p>
+    <br><br>
+    <input type="text" maxlength="15" size="25" pattern="[0-9]{+}" required>
+    <br><br>
+    <label class="pol">
+    <input type="checkbox" name="account" id="check" onclick="enableSubmit()" checked>I agree to eLabs privacy policy.<br><br>
+    <input type="checkbox" name="account" id="check2" onclick="enableSubmit()" checked>I agree to eLabs Terms and Conditions of Agreement.
+    </label><br><br><br>
+    <button type="submit" id="but">Create account</button> <button type="reset" id="re">Reset</button>
+</form>
+</body>
+</html>
