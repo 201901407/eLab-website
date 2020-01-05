@@ -80,10 +80,23 @@ h3{
   font-size: 70px;
   color:red;
   text-align: center;
-  background-image: linear-gradient( rgb(204, 84, 104), rgb(255, 255, 0));
   height: 155px;
   padding: 30px 0px 0px 0px;
   font-family: Stencil,sans-serif;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fade{
+  0%{
+    background-color:orange;
+  }
+  50%{
+    background-color:mediumspringgreen;
+  }
+  100%{
+    background-color: orchid;
+  }
 }
 div.cata{
   border: 0.1px solid lightskyblue;
